@@ -34,6 +34,10 @@ class DemoApp extends LitElement {
                 display: flex;
                 flex-direction: row;
             }
+            
+            decorated-form {
+                width: 100%;
+            }
         `
     }
 
