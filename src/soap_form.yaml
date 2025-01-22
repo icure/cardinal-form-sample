@@ -1,0 +1,53 @@
+form: soap_form
+id: aa84fd14-e771-48a1-88b7-84af34c3f76a
+description: soap_form
+sections:
+  - section: Subjective
+    fields:
+      - group: line
+        borderless: true
+        span: 24
+        fields:
+          - field: Anamnesis
+            type: textfield
+            span: 24
+            tags:
+              - CD-ITEM|anamnesis|1
+            computedProperties:
+              defaultValue: |
+                return { content: { 'fr': { type: 'string', value: 'visite de routine' } }, codes: [] }
+  - section: Objective
+    fields:
+      - group: line
+        borderless: true
+        span: 24
+        fields:
+          - field: Clinical examination
+            type: textfield
+            span: 24
+            tags:
+              - CD-ITEM|clinical|1
+  - section: Assessment
+    fields:
+      - group: line
+        borderless: true
+        span: 24
+        fields:
+          - field: Diagnosis
+            type: dropdown
+            codifications:
+              - ICPC-2
+            span: 24
+            tags:
+              - CD-ITEM|diagnosis|1
+  - section: Plan
+    fields:
+      - group: line
+        borderless: true
+        span: 24
+        fields:
+          - field: Action plan
+            type: textfield
+            span: 24
+            tags:
+              - CD-ITEM|actionplan|1

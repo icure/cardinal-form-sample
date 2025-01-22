@@ -1,0 +1,31 @@
+{
+  "name": "@icure/form",
+  "version": "2.0.7",
+  "description": "",
+  "main": "lib/index.js",
+  "types": "./lib/index.d.ts",
+  "dependencies": {
+    "@webcomponents/webcomponentsjs": "^2.7.0",
+    "app-datepicker": "^6.0.0-rc.33",
+    "date-fns": "^2.23.0",
+    "fast-deep-equal": "^3.1.3",
+    "lit": "^3.1.3",
+    "markdown-it": "^14.1.0",
+    "orderedmap": "2.1.1",
+    "prosemirror-commands": "1.5.2",
+    "prosemirror-history": "1.3.2",
+    "prosemirror-keymap": "1.2.2",
+    "prosemirror-markdown": "1.12.0",
+    "prosemirror-model": "1.19.4",
+    "prosemirror-schema-basic": "1.2.2",
+    "prosemirror-schema-list": "1.3.0",
+    "prosemirror-state": "1.4.3",
+    "prosemirror-transform": "1.8.0",
+    "prosemirror-view": "1.32.7",
+    "uuid": "^9.0.1"
+  },
+  "author": "",
+  "license": "GPL-3.0",
+  "bugs": null,
+  "homepage": null
+}

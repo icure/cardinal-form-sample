@@ -1,0 +1,1 @@
+{"version":3,"file":"model.js","sourceRoot":"","sources":["../../tmp/icure/model.ts"],"names":[],"mappings":"","sourcesContent":["import { CodeStub } from '@icure/cardinal-sdk'\n\nexport interface ServiceMetadata {\n\tlabel: string\n\tindex?: number\n\tvalueDate?: number\n\tauthor?: string\n\tresponsible?: string\n\tcodes?: CodeStub[]\n\ttags?: CodeStub[]\n}\n"]}

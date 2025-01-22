@@ -1,0 +1,9 @@
+export declare const searchPicto: import("lit-html").TemplateResult<1>;
+export declare const ownerPicto: import("lit-html").TemplateResult<1>;
+export declare const i18nPicto: import("lit-html").TemplateResult<1>;
+export declare const versionPicto: import("lit-html").TemplateResult<1>;
+export declare const datePicto: import("lit-html").TemplateResult<1>;
+export declare const markPicto: import("lit-html").TemplateResult<1>;
+export declare const dropdownPicto: import("lit-html").TemplateResult<1>;
+export declare const okPicto: import("lit-html").TemplateResult<1>;
+export declare const calendarPatientPicto: import("lit-html").TemplateResult<1>;

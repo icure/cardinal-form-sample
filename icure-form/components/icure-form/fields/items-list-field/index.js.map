@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","sourceRoot":"","sources":["../../../../../tmp/components/icure-form/fields/items-list-field/index.ts"],"names":[],"mappings":";;;;;;;;;;;;;;;;AAAA,qDAAkC","sourcesContent":["export * from './items-list-field'\n"]}
